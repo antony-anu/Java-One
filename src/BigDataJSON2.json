@@ -1,0 +1,43 @@
+//Correct JSON (error removed)
+{
+  "order": {
+    "id":"5",
+    "status": "delivered",
+    "order_date": "10/01/2021 20:21",
+    "ordered_by": {
+      "id": "971",
+      "name": "Keely O'Ryan",
+      "address": "Universitaetsstrasse 1"
+      },
+    "sold_by": {
+      "id": "891",
+      "first_name": "Zeyd",
+      "last_name": "Boukhers",
+      "email": "boukhers@uni-koblenz.de",
+      "job_title": "University professor"
+      }
+  }
+}
+
+??
+//Incorrect - Only issues with "" in key
+
+{
+  order: {
+    id:"5",
+    status: "delivered",
+    order_date: "10/01/2021 20:21",
+    ordered_by: {
+      id: "971",
+      name: "Keely O'Ryan",
+      address: "Universitaetsstrasse 1"
+    },
+    sold_by: {
+      id: "891",
+      first_name: "Zeyd",
+      last_name: "Boukhers",
+      email: "boukhers@uni-koblenz.de",
+      job_title: "University professor"
+    }
+  }
+}

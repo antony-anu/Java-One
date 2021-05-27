@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Big Corporation",
+    "numberOfEmployees": 10000,
+    "ceo": "Mary",
+    "rating": 3.6,
+    "customers": [{
+      "name": "CustomerA",
+      "country": "Germany",
+      "dateOfPartnership": "2020-12-01"
+    }, {
+        "name": "CustomerB",
+        "country": "USA",
+        "dateOfPartnership": "2020-12-11"
+      }],
+    "verticals": [{
+      "name": "HR",
+      "headOffice": "Mumbai"
+    }, {
+        "name": "BFSI",
+        "headOffice": "Brussels"
+      }]
+  },
+  {
+    "name": "TCS",
+    "numberOfEmployees": 456000,
+    "ceo": "Rajesh Gopinathan",
+    "rating": 4.0,
+    "customers": [{
+      "name": "Deutsche Bank",
+      "country": "Germany",
+      "dateOfPartnership": "2020-10-01"
+    }, {
+      "name": "Walgreens",
+      "country": "USA",
+      "dateOfPartnership": "2020-10-11"
+    }],
+    "verticals": [{
+      "name": "Retail",
+      "headOffice": "Mumbai"
+    }, {
+      "name": "BFSI",
+      "headOffice": "Brussels"
+    }]
+  }
+]

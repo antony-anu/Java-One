@@ -1,0 +1,46 @@
+//Correct JSON (error removed)
+{
+  "orders": [
+    {
+      "id": "5",
+      "status": "delivered",
+      "order_date": "10/01/2021 20:40",
+      "sold_by": {
+        "id": "891",
+        "first_name": "Zeyd",
+        "last_name": "Boukhers",
+        "email": "boukhers@uni-koblenz.de",
+        "job_title": "University professor",
+        "ordered_by": {
+          "id": "971",
+          "name": "Keely O'Ryan",
+          "address": "Universitaetsstrasse 1"
+          }
+       }
+    }
+  ]
+}
+
+??
+//Errors
+        // 1.Did not add "{" after "["
+        // 2.order_date not ended properly ' " ' is missing and Time is not given properly
+{
+  orders: [
+    id:"5",
+    status: "delivered",
+    order_date: "10/01/2021 20:
+    sold_by: {
+      id: "891",
+      first_name: "Zeyd",
+      last_name: "Boukhers",
+      email: "boukhers@uni-koblenz.de",
+      job_title: "University professor",
+      ordered_by: {
+        id: "971",
+        name: "Keely O'Ryan",
+        address: "Universitaetsstrasse 1"
+      },  //Error here,no need of ","
+    }
+  ]
+}

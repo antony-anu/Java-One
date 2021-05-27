@@ -1,0 +1,43 @@
+//Correct JSON (error removed)
+{
+  "customer": {
+    "id": "971",
+    "name": "Keely O'Ryan",
+    "address": "Universitaetsstrasse 1"
+  },
+  "employee": {
+    "id": "891",
+    "first_name": "Zeyd",
+    "last_name": "Boukhers",
+    "email": "boukhers@uni-koblenz.de",
+    "job_title": "University professor"
+  },
+  "order": {
+    "id":"5",
+    "status": "delivered",
+    "order_date": "10/01/2021 20:21"
+  }
+}
+
+??
+
+//Incorrect JSON = "" is not added for keys
+{
+  customer: {
+    id: "971",
+    name: "Keely O'Ryan",
+    address: "Universitaetsstrasse 1"
+  },
+  employee: {
+    id: "891",
+    first_name: "Zeyd",
+    last_name: "Boukhers",
+    email: "boukhers@uni-koblenz.de",
+    job_title: "University professor"
+  },
+  order: {
+    id:"5",
+    status: "delivered",
+    order_date: "10/01/2021 20:21",      //Error in this line "," do not need
+  }
+}
